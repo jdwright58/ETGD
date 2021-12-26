@@ -1,5 +1,21 @@
 https://github.com/jdwright58/ETGD
 ==================================
+20211225
+1.In /css/footer.html: made absolute reference to etgd.css
+
+2.In /css/reset.css: commented lines 69-76 that was adding space between my <mark> lines
+
+3.Each HTML file:
+  a.Add stylesheet /css/reset.css
+  b.Change footer src to /iframes folder
+  c.Removed /footer.html (now referenced in folder /iframes)
+
+4./css/etgd.css: added classes 
+  a).board-head
+  b).board-table
+  c).board-member-left
+  d).board-member-right
+===============================
 20211224
 Each html file: 
   Change to absolute site folders
@@ -12,11 +28,13 @@ Each html file:
     application links
     <iframe src="footer.html
   Removed commented code in index.html related to add-to-my-calendar
+====================================
 20211208
 etgd.css
   Added body height 100vh
   Changed footer position to sticky
   Changed footer top: 100vh
+===================================
 20211205
 CSS
   Created css folder

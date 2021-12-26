@@ -1,14 +1,20 @@
 body {
   margin: 0;
+  height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+  /*background-color: CornflowerBlue;*/
 }
 
 mark {
   background-color: cornsilk;
   color: black;
+}
+
+.grid-container {
+  display: grid;
 }
 
 ul.topnav {
@@ -35,7 +41,8 @@ ul.topnav li a:hover:not(.active) {
   background-color: #111;
 }
 
-ul.topnav li a.active {
+/*ul.topnav li a.active {*/
+ul.topnav li .active {
   background-color: #04AA6D;
 }
 
@@ -56,6 +63,52 @@ h1 {
   text-align: center;
 }
 
+p {
+  text-align: center;
+}
+div {
+  text-align: center;
+}
+
+footer {
+  position: sticky;
+  top: 100vh;
+  /*position: fixed;*/
+  /*overflow: hidden;*/
+  /*bottom: 5px;*/
+  /*width: 100%;*/
+  color: white;
+  text-align: center;
+  background-color: transparent;
+}
+
+.board-head {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  /*outline: 3px solid red;*/
+}
+
+.board-table {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  /*outline: 3px solid red;*/
+}
+
+.board-member-left {
+  width: 30%;
+ text-align: right;
+ padding-right: 10px;
+ /*outline: 3px solid green;*/
+}
+
+.board-member-right {
+  width: 30%;
+ text-align: left;
+ padding-left: 10px;
+/*outline: 3px solid green;*/
+}
+
 @media screen and (max-width: 600px) {
   ul.topnav li a {
     padding: 5px;
@@ -65,7 +118,7 @@ h1 {
     float: none;
   }
   img.etgd {
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
     left: 0;
     border: none;
@@ -82,21 +135,4 @@ h1 {
     background-size: contain;
     background-position: center bottom;
   }
-}
-
-p {
-  text-align: center;
-}
-div {
-  text-align: center;
-}
-
-footer {
-  position: fixed;
-  overflow: hidden;
-  bottom: 5px;
-  width: 100%;
-  color: white;
-  text-align: center;
-  background-color: transparent;
 }
