@@ -1,5 +1,17 @@
 https://github.com/jdwright58/ETGD
 ==================================
+20211228
+Added a header to each page with the Gusher Days symbol and general info
+1.In /css/etgd.css added classes:
+    .hdr
+    .hdr-text
+    .hdr-img
+
+2.Each HTML file:
+  a.Added <header> and code
+  b.Added <nav> around <ul>
+  c.Commented gusher days image in <div>
+==================================
 20211225
 1.In /css/footer.html: made absolute reference to etgd.css
 
