@@ -1,0 +1,322 @@
+/*HTML-wide settings*/
+body {
+  margin: 0;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  /*background-color: CornflowerBlue;*/
+}
+
+div {
+  text-align: center;
+}
+
+footer {
+  position: sticky;
+  top: 100vh;
+  /*position: fixed;*/
+  /*overflow: hidden;*/
+  /*bottom: 5px;*/
+  /*width: 100%;*/
+  color: white;
+  text-align: center;
+  background-color: transparent;
+}
+
+h1 {
+  text-align: center;
+}
+
+mark {
+  background-color: cornsilk;
+  color: black;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  padding-left: 40px;  
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+/*xxxxxxxxxxxxxxxx----------Classes----------xxxxxxxxxxxxxxxx*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+img.etgd {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  border: none;
+  width: 150px;
+  height: 150px;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/*ul.topnav li a.active {*/
+ul.topnav li .active {
+  background-color: #04AA6D;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+.board-head {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  /*outline: 3px solid red;*/
+}
+
+.board-table {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  /*outline: 3px solid red;*/
+}
+
+.board-member-left {
+  width: 30%;
+  text-align: right;
+  padding-right: 10px;
+  /*outline: 3px solid green;*/
+}
+
+.board-member-right {
+  width: 30%;
+  text-align: left;
+  padding-left: 10px;
+  /*outline: 3px solid green;*/
+}
+
+.grid-container {
+  display: grid;
+}
+
+/*----------Body classes----------*/
+.body_ac {
+  background-image: url('/photos/ArtsCraftsComm.jpg');
+}
+.body_bass {
+  background-image: url('/photos/basstournament.jpg');
+}
+.body_board {
+  background-color: var(--containerbgcolor);
+}
+.body_carnival {
+  background-image: url('/photos/carnival.jpg');
+}
+.body_carshow {
+  background-image: url('/photos/carshow.jpg');
+}
+.body_chili {
+  background-image: url('/photos/chilicookoff.jpg');
+}
+.body_dnj {
+  background-image: url('/photos/DirtyNeckJessies.jpg');
+}
+.body_fb {
+  background-color: var(--containerbgcolor);
+}
+.body_food {
+  background-image: url('/photos/food.jpg');
+}
+.body_health {
+  background-color: var(--containerbgcolor);
+}
+.body_index {
+  background-image: url('/photos/home.jpg');
+}
+.body_streetdance {
+  background-image: url('/photos/StreetDance.jpg');
+}
+
+/*----------Container classes----------*/
+.container_ac {
+  width: max-content;
+  margin-left: auto;
+  background-color: var(--containerbgcolor);
+  text-align: left;
+  font-size: 1rem;
+}
+.container_ac p {
+  font-size: 1.25rem;
+}
+.container_bass {
+  width: 40%;
+  margin-left: auto;
+  background-color: var(--containerbgcolor);
+  text-align: center;
+  font-size: 1rem;
+}
+.container_bass p {
+  font-size: 1.5rem;
+}
+.container_carnival {
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--containerbgcolor);
+  text-align: center;
+  font-size: 1.5rem;
+}
+.container_carnival ul {
+  list-style-type: none;
+  padding: 0;
+}
+.container_carshow {
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--containerbgcolor);
+  text-align: center;
+  font-size: 1.5rem;
+}
+.container_chili {
+  /*width: 90%;*/
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--containerbgcolor);
+}
+.container_chili_head {
+  text-align: left;
+  font-size: 2rem;
+}
+.container_chili_rules {
+  grid-template-columns: 50% 50%;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.container_chili_rules_left {
+  text-align: left;
+  font-size: 1.5rem;
+}
+.container_chili_rules_right {
+  text-align: left;
+  font-size: 1.5rem;
+}
+.container_dnj {
+  max-width: max-content;
+  margin-right: auto;
+  background-color: var(--containerbgcolor);
+  text-align: center;
+  font-size: 1.5rem;
+}
+.container_fb {
+  font-size: 1.5rem;
+}
+.container_food {
+  max-width: max-content;
+  margin-left: auto;
+  background-color: var(--containerbgcolor);
+  font-size: 1.5rem;
+}
+.container_food p {
+  text-align: right;
+}
+.container_health {
+  font-size: 1.5rem;
+}
+.container_index_announcement {
+  max-width: max-content;
+  margin: auto;
+  background-color: var(--containerbgcolor);
+  font-size: 1.25rem;
+}
+.container_index_announcement p {
+  font-size: 2rem;
+}
+.container_index_cal_Fri {
+  text-align: left;
+  font-size: 1.5rem;
+}
+.container_index_cal_Sat {
+  text-align: left;
+  font-size: 1.5rem;
+}
+.container_index_countdown {
+  width: max-content;
+  margin: auto;
+}
+.container_streetdance {
+  max-width: max-content;
+  margin: auto;
+  background-color: var(--containerbgcolor);
+  font-size: 1.5rem;
+}
+
+/*----------Header classes----------*/
+.hdr {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.hdr-text {
+  background-color: black;
+  color: gold;
+  text-align: center;
+}
+
+.hdr-img {
+  background-image: url("/photos/etgd_bw.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+/*xxxxxxxxxxxxxxxx--Media size modifications-xxxxxxxxxxxxxxxx*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+@media screen and (max-width: 600px) {
+  ul.topnav li a {
+    padding: 5px;
+  }
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+  img.etgd {
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    border: none;
+    width: 50px;
+    height: 50px;
+  }
+  h1 {
+    font-size: 4vw;
+  }
+  h2 {
+    font-size: 3vw;
+  }
+  body {
+    background-size: contain;
+    background-position: center bottom;
+  }
+}

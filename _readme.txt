@@ -1,5 +1,105 @@
 https://github.com/jdwright58/ETGD
 ==================================
+20211231-20220113
+1. artscraftscomm.html
+  a.<head>tested uncommenting reset.css by adding test.css
+  b.<body>moved background image url to class="body_ac"
+  c.<header>changed  to <header class="hdr"> and removed extra <div>
+  d.<header>changed from both lines h1 to h1 for line 1, h2 for line 2
+  e.<nav>commented out menu item for Old Site
+  f.<div>changed booth list <div> container to class="container_ac" and <ul>
+  g.Moved style settings to test.css
+  h.set body_ac <p> font size to 1.25rem
+  
+2.basstournament.html
+  a.<head>tested uncommenting reset.css by adding test.css
+  b.<body>moved background image url to class="body_bass"
+  c.<header> changed  to <header class="hdr"> and removed extra <div>
+  d.<header>Changed from both lines h1 to h1 for line 1, h2 for line 2
+  e.<nav> commented out menu item for Old Site
+  f.<div>removed grid, set <div> to class="body_bass" with width 40% and margin-left auto, added <h1> for first line, <h2> for the second line.
+  g.set body_bass <p> font size to 1.25rem
+
+3.board.html
+  a.<head>tested uncommenting reset.css by adding test.css
+  b.<body>set background color in class="body_board"
+  c.<header>changed  to <header class="hdr"> and removed extra <div>
+  d.<table>kept <h2> around table because <h2> resizes with browser size changes
+  
+4.carnival.html
+  a.<head>tested uncommenting reset.css by adding test.css
+  b.<body>moved background image url to class="body_carnival"
+  c.<header>changed  to <header class="hdr"> and removed extra <div>
+  d.<header>Changed from both lines h1 to h1 for line 1, h2 for line 2
+  e.<nav> commented out menu item for Old Site
+  f.<div>changed attractions list <div> container to class="container_carnival" with items as <ul> font size 2 rem
+  
+5.carshow.html
+  a.<head>tested uncommenting reset.css by adding test.css
+  b.<body>moved background image url to class="body_carshow"
+  c.<header>changed  to <header class="hdr"> and removed extra <div>
+  d.<header>Changed from both lines h1 to h1 for line 1, h2 for line 2
+  e.<nav> commented out menu item for Old Site
+  f.<div>set to class="body_carshow" with width 30% and margin-left margin-right auto
+
+6.chilicookoff.html
+  a.<head>tested uncommenting reset.css by adding test.css
+  b.<body>moved background image url to class="body_chili"
+  c.<header>changed  to <header class="hdr"> and removed extra <div>
+  d.<header>Changed from both lines h1 to h1 for line 1, h2 for line 2
+  e.<nav> commented out menu item for Old Site
+  f.<div>divided into header, rules_left and rules_right.  Set rules as 2 unordered lists.
+
+7.dirtyneckjessies.html
+  a.<head>tested uncommenting reset.css by adding test.css
+  b.<body>moved background image url to class="body_dnj"
+  c.<header>changed  to <header class="hdr"> and removed extra <div>
+  d.<header>Changed from both lines h1 to h1 for line 1, h2 for line 2
+  e.<nav> commented out menu item for Old Site
+  f.<div>set to class="container_dnj" with max-width = max-content and margin-right auto
+ 
+ 8.fb.html 
+  a.<head>tested uncommenting reset.css by adding test.css
+  b.<body>set background color in class="body_fb"
+  c.<header>changed  to <header class="hdr"> and removed extra <div>
+  d.<header>Changed from both lines h1 to h1 for line 1, h2 for line 2
+  e.<nav> commented out menu item for Old Site
+  f.<div>set to class="container_fb"
+  
+9.food.html
+  a.<head>tested uncommenting reset.css by adding test.css
+  b.<body>moved background image url to class="body_food"
+  c.<header>changed  to <header class="hdr"> and removed extra <div>
+  d.<header>Changed from both lines h1 to h1 for line 1, h2 for line 2
+  e.<nav> commented out menu item for Old Site
+  f.<div>set to class="container_food" with max-width = max-content and margin-left auto
+  g.Added <h1>Gusher Days Food to the top of <div>
+
+10.health.html
+  a.<head>tested uncommenting reset.css by adding test.css
+  b.<body>set background color in class="body_health"
+  c.<header>changed  to <header class="hdr"> and removed extra <div>
+  d.<header>Changed from both lines h1 to h1 for line 1, h2 for line 2
+  e.<nav> commented out menu item for Old Site
+  f.<div>set to class="container_index" with max-width = max-content and margin-left auto
+
+11.index.html
+  a.<head>tested uncommenting reset.css by adding test.css
+  b.<body>moved background image url to class="body_index"
+  c.<header>changed  to <header class="hdr"> and removed extra <div>
+  d.<header>Changed from both lines h1 to h1 for line 1, h2 for line 2
+  e.<nav>commented out menu item for Old Site
+  f.<div>styled div for countdown timer, main content, add-to-calendar
+  g.<div>removed a div layer around add-to-calendar
+
+12.streetdance.html
+  a.<head>tested uncommenting reset.css by adding test.css
+  b.<body>moved background image url to class="body_streetdance"
+  c.<header>changed  to <header class="hdr"> and removed extra <div>
+  d.<header>Changed from both lines h1 to h1 for line 1, h2 for line 2
+  e.<div>styled div for main content
+
+==================================
 20211228
 Added a header to each page with the Gusher Days symbol and general info
 1.In /css/etgd.css added classes:
@@ -10,7 +110,8 @@ Added a header to each page with the Gusher Days symbol and general info
 2.Each HTML file:
   a.Added <header> and code
   b.Added <nav> around <ul>
-  c.Commented gusher days image in <div>
+  c.Commented gusher days image in <div>:
+  <img class="etgd" src="/photos/etgd_bw.JPG" alt="East Texas Gusher Days">
 ==================================
 20211225
 1.In /css/footer.html: made absolute reference to etgd.css

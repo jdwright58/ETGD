@@ -1,0 +1,88 @@
+/* variables for easy user config */
+
+html {
+  /* colours */
+  --textColor: #000;
+  --bodyBgColor: #fff;
+  --chromeBGColor: #ace;
+  --sectionBgColor: #cde;
+  --sectionShadow: 0 0.125rem 0.25em 0.125em #0005;
+  --sectionBorderRadius: 0.5rem;
+
+  /* dynamic paddings */
+  --gap: min(1.5rem, 2vw);
+}
+
+/* reset to give steady baseline */
+
+html,
+body {
+  height: 100%;
+  --containerbgcolor: SkyBlue;
+}
+
+html,
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+fieldset,
+caption,
+table,
+tr,
+td,
+th,
+address,
+blockquote,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+fieldset {
+  border: none;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  flex: 1 0 auto;
+}
+
+hr {
+  display: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/*body,*/
+/*button,*/
+/*input,*/
+/*table,*/
+/*textarea,*/
+/*select {*/
+/*  font: normal 16px/1.5 sans-serif;*/
+/*}*/
+
+button {
+  cursor: pointer;
+}
+
+/* end reset */
