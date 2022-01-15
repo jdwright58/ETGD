@@ -1,5 +1,14 @@
 https://github.com/jdwright58/ETGD
 ==================================
+20220113
+1.Added to all html files
+  a.<html lang="en">
+  b.<head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Gusher Days Event Info">
+      <meta name="keywords" content="Gusher Days, East Texas Gusher Days", Gladewater Gusher Days>
+      <meta name="author" content="Jeff Wright">
+==================================
 20211231-20220113
 1. artscraftscomm.html
   a.<head>tested uncommenting reset.css by adding test.css
