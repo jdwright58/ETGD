@@ -39,7 +39,7 @@ p {
 }
 
 ul {
-  padding-left: 40px;  
+  padding-left: 40px;
 }
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
 /*xxxxxxxxxxxxxxxx----------Classes----------xxxxxxxxxxxxxxxx*/
@@ -126,6 +126,10 @@ ul.topnav li.right {
 }
 .body_board {
   background-color: var(--containerbgcolor);
+  background-image: url('/photos/ETGD_Color.jpg'), url('/photos/ETGD_Color.jpg');
+  background-size: 7.5vw;
+  background-repeat: no-repeat;
+  background-position: 20% 60%, 80% 60%;
 }
 .body_carnival {
   background-image: url('/photos/carnival.jpg');
@@ -141,12 +145,20 @@ ul.topnav li.right {
 }
 .body_fb {
   background-color: var(--containerbgcolor);
+  background-image: url('/photos/ETGD_Color.jpg'), url('/photos/ETGD_Color.jpg');
+  background-size: 7.5vw;
+  background-repeat: no-repeat;
+  background-position: 20% 60%, 80% 60%;
 }
 .body_food {
   background-image: url('/photos/food.jpg');
 }
 .body_health {
   background-color: var(--containerbgcolor);
+  background-image: url('/photos/ETGD_Color.jpg'), url('/photos/ETGD_Color.jpg');
+  background-size: 7.5vw;
+  background-repeat: no-repeat;
+  background-position: 25% 60%, 75% 60%;
 }
 .body_index {
   background-image: url('/photos/home.jpg');
@@ -241,6 +253,10 @@ ul.topnav li.right {
 }
 .container_health {
   font-size: 1.5rem;
+  background-color: skyblue; 
+  max-width: max-content;
+  margin: auto; 
+  margin-top: 10vh;
 }
 .container_index_announcement {
   max-width: max-content;

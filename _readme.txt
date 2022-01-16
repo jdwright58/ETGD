@@ -1,5 +1,15 @@
 https://github.com/jdwright58/ETGD
 ==================================
+20220115
+etgd.css
+  1.For the Health page
+    a.Changed class .body_health to add a double background-image of the color Gusher Days symbol to break up the all blue backgound 
+    b.Changed class .container_health to set a max width, left right margin, and a top margin to move off the top of the page.
+  2.For the Facebook page
+    a.Changed class .body_fb to add a double background-image of the color Gusher Days symbol to break up the all blue backgound
+  3.For the Board page
+    a.Changed class .body_bpard to add a double background-image of the color Gusher Days symbol to break up the all blue backgound
+==================================
 20220113
 1.Added to all html files
   a.<html lang="en">
