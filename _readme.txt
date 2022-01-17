@@ -1,5 +1,8 @@
 https://github.com/jdwright58/ETGD
 ==================================
+Created VendorMap.pdf from spreadsheet.
+Added link to the navigation bar on each html page
+==================================
 20220115
 etgd.css
   1.For the Health page
