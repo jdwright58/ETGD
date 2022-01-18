@@ -1,5 +1,18 @@
 https://github.com/jdwright58/ETGD
 ==================================
+20220116
+1.etgd.css
+  a.In media query modified h2 and h3 resizing, added p resize.
+  b.Added classes container_board and board-list
+2.chilicookoff.html
+  a.Removed Friday night event per Lois Reed
+3.board.html
+  a.Changed member list from table to ul with column-count 2.
+  b.Added Michael Webber and Amanda Lewis and Mark Hatfield
+4.All html
+  a.Replaced footer iframe with actual footer html
+==================================
+20220116
 Created VendorMap.pdf from spreadsheet.
 Added link to the navigation bar on each html page
 ==================================
