@@ -6,7 +6,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  /*background-color: CornflowerBlue;*/
+  background-color: deepskyblue;
 }
 
 div {
@@ -269,20 +269,20 @@ ul.topnav li.right {
 }
 .container_health {
   font-size: 1.5rem;
-  background-color: skyblue; 
+  background-color: skyblue;
   max-width: max-content;
-  margin: auto; 
+  margin: auto;
   margin-top: 10vh;
 }
 .container_index_announcement {
   max-width: max-content;
   margin: auto;
   background-color: var(--containerbgcolor);
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
-.container_index_announcement p {
-  font-size: 2rem;
-}
+/*.container_index_announcement p {*/
+/*  font-size: 2rem;*/
+/*}*/
 .container_index_cal_Fri {
   text-align: left;
   font-size: 1.5rem;
@@ -293,7 +293,8 @@ ul.topnav li.right {
 }
 .container_index_countdown {
   width: max-content;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container_streetdance {
   max-width: max-content;
@@ -353,7 +354,13 @@ ul.topnav li.right {
   p {
     font-size: 2.5vw;
   }
-body {
+  label {
+    font-size: 2.5vw;
+  }
+  a {
+    font-size: 2.5vw;
+  }
+  body {
     background-size: contain;
     background-position: center bottom;
   }

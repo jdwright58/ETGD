@@ -1,5 +1,11 @@
 https://github.com/jdwright58/ETGD
 ==================================
+20220117
+1.etgd.css to fix font size problems on cell phone
+  a.Added body backgound color deepskyblue
+  b.Commented out container_index_announcement p
+  c.In media query added font 2.5vw sizes for <label> and <a>
+==================================
 20220116
 1.etgd.css
   a.In media query modified h2 and h3 resizing, added p resize.
