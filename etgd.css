@@ -89,7 +89,7 @@ ul.topnav li.right {
 .board-head {
   padding-top: 5vh;
   padding-bottom: 5vh;
-  /*outline: 3px solid red;*/
+  background-color: var(--containerbgcolor);
 }
 
 .board-list {

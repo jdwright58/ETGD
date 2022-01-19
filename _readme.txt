@@ -1,7 +1,11 @@
 https://github.com/jdwright58/ETGD
 ==================================
+20220118
+1.etgd.css to fix gusher days icon showing through board head
+  a.Set .board-head background-color: var(--containerbgcolor)
+==================================
 20220117
-1.etgd.css to fix font size problems on cell phone
+1.etgd.css to fix index.html font size problems on cell phone
   a.Added body backgound color deepskyblue
   b.Commented out container_index_announcement p
   c.In media query added font 2.5vw sizes for <label> and <a>
