@@ -1,5 +1,10 @@
 https://github.com/jdwright58/ETGD
 ==================================
+20220123
+1.etgd.css:Added media query entries to make pages look better on phones
+2.Each HTML: Changed footer phone number to a dialable href
+3.artscraftscomm.html:Added 14 vendors
+==================================
 20220118
 1.etgd.css to fix gusher days icon showing through board head
   a.Set .board-head background-color: var(--containerbgcolor)
