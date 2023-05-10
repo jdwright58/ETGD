@@ -28,7 +28,7 @@
       Scroll the window below to see the latest.
     </p>
   </div>
-  <div class="fb-page" style="margin: auto; width: 100%;"
+  <div class="fb-page" style="margin: auto; width: 100%; background-color: transparent;"
     data-href="https://www.facebook.com/easttexasgusherdays"
     data-tabs="timeline,events"
     data-width="500"

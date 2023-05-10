@@ -18,7 +18,8 @@
   <div class="container_carshow">
     <h1>Gusher Days Car Show</h1>
     <p>
-      Come on by the car show Saturday.<br>
+      Come on by the car show Saturday and<br>
+      see The “C” Dale Cummings<br>
       Check with the Gladewater Chamber of Commerce<br>
       (see below) for information
     </p>

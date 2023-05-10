@@ -28,7 +28,8 @@
           <li>CHILI GRIND ONLY.</li>
           <li>CASI Rules Apply.</li>
           <li>Jackpot Beans entry fee is $5 with turn-in at Noon.</li>
-          <li>Trophies and prizes will be awarded for 1st Place Chili, 1st Place Bean, and Peoples'Choice Award.</li>
+          <li>Trophies and prizes will be awarded for 1st Place Chili, <br>
+              1st Place Bean, and Peoples'Choice Award.</li>
         </ul>
       </div>
       <div class="container_chili_rules_right">

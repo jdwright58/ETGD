@@ -1,4 +1,8 @@
 /*HTML-wide settings*/
+:root {
+  --containerbgcolor: skyblue;
+}
+  
 body {
   margin: 0;
   height: 100vh;
@@ -6,20 +10,17 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  background-color: deepskyblue;
+  background-color: var(--containerbgcolor);
 }
 
 div {
   text-align: center;
+  background-color: var(--containerbgcolor);
 }
 
 footer {
   position: sticky;
   top: 100vh;
-  /*position: fixed;*/
-  /*overflow: hidden;*/
-  /*bottom: 5px;*/
-  /*width: 100%;*/
   color: white;
   text-align: center;
   background-color: transparent;
@@ -85,11 +86,9 @@ ul.topnav li .active {
 ul.topnav li.right {
   float: right;
 }
-
-.board-head {
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-  background-color: var(--containerbgcolor);
+.acline2 {
+  text-align: left;
+  padding-left: 10%;
 }
 
 .board-list {
@@ -132,23 +131,24 @@ ul.topnav li.right {
   background-image: url('/photos/ArtsCraftsComm.jpg');
 }
 .body_bass {
-  background-image: url('/photos/basstournament.jpg');
+  background-image: url('/photos/basstournament1.jpg');
+  background-size: 80%;
+  background-position: left top;
 }
 .body_board {
-  background-color: var(--containerbgcolor);
   background-image: url('/photos/ETGD_Color.jpg'), url('/photos/ETGD_Color.jpg');
   background-size: 7.5vw;
-  background-repeat: no-repeat;
   background-position: 20% 60%, 80% 60%;
 }
 .body_carnival {
   background-image: url('/photos/carnival.jpg');
 }
 .body_carshow {
-  background-image: url('/photos/carshow.jpg');
+  background-image: url('/photos/CarShow.jpg');
 }
 .body_chili {
   background-image: url('/photos/chilicookoff.jpg');
+  background-size: 100%;
 }
 .body_dnj {
   background-image: url('/photos/DirtyNeckJessies.jpg');
@@ -162,9 +162,9 @@ ul.topnav li.right {
 }
 .body_food {
   background-image: url('/photos/food.jpg');
+  background-size: contain;
 }
 .body_health {
-  background-color: var(--containerbgcolor);
   background-image: url('/photos/ETGD_Color.jpg'), url('/photos/ETGD_Color.jpg');
   background-size: 7.5vw;
   background-repeat: no-repeat;
@@ -172,6 +172,7 @@ ul.topnav li.right {
 }
 .body_index {
   background-image: url('/photos/home.jpg');
+  background-position: top;
 }
 .body_streetdance {
   background-image: url('/photos/StreetDance.jpg');
@@ -181,34 +182,56 @@ ul.topnav li.right {
 .container_ac {
   width: max-content;
   margin-left: auto;
-  background-color: var(--containerbgcolor);
-  text-align: left;
   font-size: 1rem;
 }
-/*.container_ac p {*/
-/*  font-size: 1.25rem;*/
-/*}*/
-.container_bass {
+
+.container_ac li {
+  text-align: left;
+  /*margin-left: 1%;*/
+}
+
+.container_ac ol {
+  /*padding-left: 2%;*/
+}
+.container_ac ul {
+  /*padding-left: 1%;*/
+}
+
+.container_bass_announcement {
   width: 40%;
   margin-left: auto;
-  background-color: var(--containerbgcolor);
   text-align: center;
   font-size: 1rem;
 }
-.container_bass p {
+.container_bass_announcement p {
   font-size: 1.5rem;
 }
-.container_board {
+.container_bass_winners {
+  width: max-content;
+  margin-left: auto;
+  background-color: cornsilk;
+  text-align: center;
+  font-size: 1rem;
+}
+.container_bass_winners p {
+  font-size: 1.5rem;
+}
+
+.container_board_head {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.container_board_list {
   margin-left: auto;
   margin-right: auto;
   max-width: max-content;
-  /*outline: 3px solid red;*/
 }
+
 .container_carnival {
   width: max-content;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--containerbgcolor);
+  /*background-color: var(--containerbgcolor);*/
   text-align: center;
   font-size: 1.5rem;
 }
@@ -220,16 +243,12 @@ ul.topnav li.right {
   max-width: max-content;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--containerbgcolor);
-  text-align: center;
   font-size: 1.5rem;
 }
 .container_chili {
-  /*width: 90%;*/
   max-width: max-content;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--containerbgcolor);
 }
 .container_chili_head {
   text-align: left;
@@ -251,8 +270,6 @@ ul.topnav li.right {
 .container_dnj {
   max-width: max-content;
   margin-right: auto;
-  background-color: var(--containerbgcolor);
-  text-align: center;
   font-size: 1.5rem;
 }
 .container_fb {
@@ -261,7 +278,6 @@ ul.topnav li.right {
 .container_food {
   max-width: max-content;
   margin-left: auto;
-  background-color: var(--containerbgcolor);
   font-size: 1.5rem;
 }
 .container_food p {
@@ -269,7 +285,6 @@ ul.topnav li.right {
 }
 .container_health {
   font-size: 1.5rem;
-  background-color: skyblue;
   max-width: max-content;
   margin: auto;
   margin-top: 10vh;
@@ -277,7 +292,6 @@ ul.topnav li.right {
 .container_index_announcement {
   max-width: max-content;
   margin: auto;
-  background-color: var(--containerbgcolor);
   font-size: 1.5rem;
 }
 /*.container_index_announcement p {*/
@@ -299,7 +313,6 @@ ul.topnav li.right {
 .container_streetdance {
   max-width: max-content;
   margin: auto;
-  background-color: var(--containerbgcolor);
   font-size: 1.5rem;
 }
 

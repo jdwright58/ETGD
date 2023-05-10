@@ -17,8 +17,8 @@
   <?php include "_nav.php"; ?>
   <div class="container_streetdance">
     <h1>Gusher Days Street Dance Friday and Saturday Evening!</h1>
-    <a href="https://www.facebook.com/VentureSouthBand?fref=mentions" target="_blank">Venture South</a> - Friday, April 19th @ 7 PM to 10 PM<br>
-    <a href="https://www.facebook.com/darrinmorrisbandmusic" target="_blank">Darrin Morris Band</a> - Saturday, April 20th 7 PM to 10 PM<br>
+    <!--<a href="https://www.facebook.com/VentureSouthBand?fref=mentions" target="_blank">Venture South</a> - Friday, April 19th @ 7 PM to 10 PM<br>-->
+    <a href="https://www.facebook.com/darrinmorrisbandmusic" target="_blank">Darrin Morris Band</a> - Saturday, April 20th, 2024 7 PM to 10 PM<br>
     Bring some friends. Bring some chairs. Wear your dancing shoes.
   </div>
 <?php include "_footer.php"; ?>

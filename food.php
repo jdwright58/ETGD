@@ -24,9 +24,9 @@
       If you go home hungry, it won't be our fault!<br>
       <!--We are not taking any more food vendor <br>-->
       <!--applications at this time.-->
-      Click
-      <a href="/applications/Food lottery_App_2023_ETGD-revised.pdf" target="_blank">here</a>
-      for your food vendor lottery form
+      <!--Click-->
+      <!--<a href="/applications/Food lottery_App_2023_ETGD-revised.pdf" target="_blank">here</a>-->
+      <!--for your food vendor lottery form-->
     </p>
   </div>
 <?php include "_footer.php"; ?>

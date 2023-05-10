@@ -15,13 +15,13 @@
 <body class="body_board">
   <?php include "_header.php"; ?>
   <?php include "_nav.php"; ?>
-  <div>
-    <h1 class="board-head">
+  <div class="container_board_head">
+    <h1>
       East Texas Gusher Days Board of Directors<br>
       Ricky Burcalow - President
     </h1>
   </div>
-  <div class="container_board">
+  <div class="container_board_list">
     <ul class="board-list">
       <li>Jim Bardwell</li>
       <li>Michael Hines</li>

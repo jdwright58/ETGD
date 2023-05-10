@@ -1,6 +1,47 @@
 https://github.com/jdwright58/ETGD
 ==================================
-20230505
+20230510
+1. food.php, etged.css
+  a. Uploaded new image and updated background-size: contain
+  b. Cleaned up duplicate css
+  c. Commented out food lottery link
+2. health.php, etgd.css
+  a. Cleaned up duplicate css
+3. streetdance.php, etgd.css
+  a. Cleaned up duplicate css
+==================================
+20230509
+1. dirtyneckjessies.php, etgd.css
+  a. Cleaned up duplicate css
+2. fb.php, etgd.css
+  a. Cleaned up duplicate css
+  b. Changed FB background to transparent and position settings
+==================================
+20230508
+1. carshow.php, etgd.css
+  a. Updated background image
+  b. Added note about Dale Cummings
+  c. Cleaned up duplicate css
+2. chilicookoff.php, etgd.css
+  a. Updated background image
+  b. Cleaned up duplicate css
+3. artscraftscomm.php, etgd.css
+  a. Updated background image
+==================================
+20230507
+1. etgd.css, reset.css
+  a. Working on background color
+2. basstournament.php, etgd.css
+  a. Updated winners photo
+  b. Added previous winners from trawling Gladewater newspaper FB page
+3. board.php, etgd.css
+  a. Changed classes to container_board_head and container_board_list
+==================================
+20230505b
+1. streetdance.php
+  a. Commented band entry for Venture South
+==================================
+20230505a
 1. Uploaded 2024 Arts and Crafts application
 2. artscraftscomm.php
   a. Activated link for Arts and Crafts application
