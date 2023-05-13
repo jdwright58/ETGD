@@ -9,6 +9,7 @@
   <link rel="icon" href="/photos/ETGD_BW.jpg">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/etgd.css">
+  <link rel="stylesheet" href="/css/etgd_phone.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -19,6 +20,9 @@
   </script>
   <?php include "_header.php"; ?>
   <?php include "_nav.php"; ?>
+  <script>
+    document.getElementById("menuitem_fb").className = "active";
+  </script>
   <div class="container_fb">
     <h1>Gusher Days on Facebook</h1>
     <p>

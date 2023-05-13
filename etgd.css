@@ -42,9 +42,29 @@ p {
 ul {
   padding-left: 40px;
 }
+
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
-/*xxxxxxxxxxxxxxxx----------Classes----------xxxxxxxxxxxxxxxx*/
+/*----------Header classes----------*/
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+.hdr {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.hdr-text {
+  background-color: black;
+  color: gold;
+  text-align: center;
+}
+
+.hdr-img {
+  background-image: url("/photos/etgd_bw.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 img.etgd {
   position: absolute;
   top: 48px;
@@ -53,6 +73,10 @@ img.etgd {
   width: 150px;
   height: 150px;
 }
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+/*----------Nav classes----------*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
 
 ul.topnav {
   list-style-type: none;
@@ -86,10 +110,60 @@ ul.topnav li .active {
 ul.topnav li.right {
   float: right;
 }
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+/*----------Arts and Crafts classes----------*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
 .acline2 {
   text-align: left;
   padding-left: 10%;
 }
+.body_ac {
+  background-image: url('/photos/ArtsCraftsComm.jpg');
+}
+.container_ac {
+  width: max-content;
+  margin-left: auto;
+  font-size: 1rem;
+}
+.container_ac li {
+  text-align: left;
+  /*margin-left: 1%;*/
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+/*----------Bass classes----------*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+.body_bass {
+  background-image: url('/photos/basstournament1.jpg');
+  background-size: 80%;
+  background-position: left top;
+}
+.container_bass_announcement {
+  width: 40%;
+  margin-left: auto;
+  text-align: center;
+  font-size: 1rem;
+}
+.container_bass_announcement p {
+  font-size: 1.5rem;
+}
+.container_bass_winners {
+  width: max-content;
+  margin-left: auto;
+  background-color: cornsilk;
+  text-align: center;
+  font-size: 1rem;
+}
+.container_bass_winners p {
+  font-size: 1.5rem;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+/*----------Board classes----------*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
 
 .board-list {
   background-color: var(--containerbgcolor);
@@ -125,98 +199,11 @@ ul.topnav li.right {
 .grid-container {
   display: grid;
 }
-
-/*----------Body classes----------*/
-.body_ac {
-  background-image: url('/photos/ArtsCraftsComm.jpg');
-}
-.body_bass {
-  background-image: url('/photos/basstournament1.jpg');
-  background-size: 80%;
-  background-position: left top;
-}
 .body_board {
   background-image: url('/photos/ETGD_Color.jpg'), url('/photos/ETGD_Color.jpg');
   background-size: 7.5vw;
   background-position: 20% 60%, 80% 60%;
 }
-.body_carnival {
-  background-image: url('/photos/carnival.jpg');
-}
-.body_carshow {
-  background-image: url('/photos/CarShow.jpg');
-}
-.body_chili {
-  background-image: url('/photos/chilicookoff.jpg');
-  background-size: 100%;
-}
-.body_dnj {
-  background-image: url('/photos/DirtyNeckJessies.jpg');
-}
-.body_fb {
-  background-color: var(--containerbgcolor);
-  background-image: url('/photos/ETGD_Color.jpg'), url('/photos/ETGD_Color.jpg');
-  background-size: 7.5vw;
-  background-repeat: no-repeat;
-  background-position: 20% 60%, 80% 60%;
-}
-.body_food {
-  background-image: url('/photos/food.jpg');
-  background-size: contain;
-}
-.body_health {
-  background-image: url('/photos/ETGD_Color.jpg'), url('/photos/ETGD_Color.jpg');
-  background-size: 7.5vw;
-  background-repeat: no-repeat;
-  background-position: 25% 60%, 75% 60%;
-}
-.body_index {
-  background-image: url('/photos/home.jpg');
-  background-position: top;
-}
-.body_streetdance {
-  background-image: url('/photos/StreetDance.jpg');
-}
-
-/*----------Container classes----------*/
-.container_ac {
-  width: max-content;
-  margin-left: auto;
-  font-size: 1rem;
-}
-
-.container_ac li {
-  text-align: left;
-  /*margin-left: 1%;*/
-}
-
-.container_ac ol {
-  /*padding-left: 2%;*/
-}
-.container_ac ul {
-  /*padding-left: 1%;*/
-}
-
-.container_bass_announcement {
-  width: 40%;
-  margin-left: auto;
-  text-align: center;
-  font-size: 1rem;
-}
-.container_bass_announcement p {
-  font-size: 1.5rem;
-}
-.container_bass_winners {
-  width: max-content;
-  margin-left: auto;
-  background-color: cornsilk;
-  text-align: center;
-  font-size: 1rem;
-}
-.container_bass_winners p {
-  font-size: 1.5rem;
-}
-
 .container_board_head {
   padding-top: 5vh;
   padding-bottom: 5vh;
@@ -227,6 +214,13 @@ ul.topnav li.right {
   max-width: max-content;
 }
 
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+/*----------Carnival classes----------*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+.body_carnival {
+  background-image: url('/photos/carnival.jpg');
+}
 .container_carnival {
   width: max-content;
   margin-left: auto;
@@ -239,11 +233,29 @@ ul.topnav li.right {
   list-style-type: none;
   padding: 0;
 }
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+/*----------Car Show classes----------*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+.body_carshow {
+  background-image: url('/photos/CarShow.jpg');
+  background-position: left top;
+}
 .container_carshow {
   max-width: max-content;
   margin-left: auto;
-  margin-right: auto;
   font-size: 1.5rem;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+/*----------Chili classes----------*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+.body_chili {
+  background-image: url('/photos/chilicookoff.jpg');
+  background-size: 100%;
+  background-position: left top;
 }
 .container_chili {
   max-width: max-content;
@@ -267,13 +279,41 @@ ul.topnav li.right {
   text-align: left;
   font-size: 1.5rem;
 }
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+/*----------Dirty Neck Jessie's classes----------*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+.body_dnj {
+  background-image: url('/photos/DirtyNeckJessies.jpg');
+}
 .container_dnj {
   max-width: max-content;
   margin-right: auto;
   font-size: 1.5rem;
 }
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+/*----------FaceBook classes----------*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+.body_fb {
+  background-image: url('/photos/ETGD_Color.jpg'), url('/photos/ETGD_Color.jpg');
+  background-size: 7.5vw;
+  background-repeat: no-repeat;
+  background-position: 20% 60%, 80% 60%;
+}
 .container_fb {
   font-size: 1.5rem;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+/*----------Food classes----------*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+.body_food {
+  background-image: url('/photos/food.jpg');
+  background-size: contain;
 }
 .container_food {
   max-width: max-content;
@@ -283,20 +323,37 @@ ul.topnav li.right {
 .container_food p {
   text-align: right;
 }
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+/*----------Health classes----------*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+.body_health {
+  background-image: url('/photos/ETGD_Color.jpg'), url('/photos/ETGD_Color.jpg');
+  background-size: 7.5vw;
+  background-repeat: no-repeat;
+  background-position: 25% 60%, 75% 60%;
+}
 .container_health {
   font-size: 1.5rem;
   max-width: max-content;
   margin: auto;
   margin-top: 10vh;
 }
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+/*----------Index classes----------*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+.body_index {
+  background-image: url('/photos/home.jpg');
+  background-position: top;
+}
 .container_index_announcement {
   max-width: max-content;
   margin: auto;
   font-size: 1.5rem;
 }
-/*.container_index_announcement p {*/
-/*  font-size: 2rem;*/
-/*}*/
 .container_index_cal_Fri {
   text-align: left;
   font-size: 1.5rem;
@@ -310,111 +367,17 @@ ul.topnav li.right {
   margin-left: auto;
   margin-right: auto;
 }
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+/*----------Street Dance classes----------*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+.body_streetdance {
+  background-image: url('/photos/StreetDance.jpg');
+  background-position: left top;
+}
 .container_streetdance {
   max-width: max-content;
   margin: auto;
   font-size: 1.5rem;
-}
-
-/*----------Header classes----------*/
-.hdr {
-  display: grid;
-  grid-template-columns: 10% 80% 10%;
-}
-
-.hdr-text {
-  background-color: black;
-  color: gold;
-  text-align: center;
-}
-
-.hdr-img {
-  background-image: url("/photos/etgd_bw.jpg");
-  background-color: black;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
-/*xxxxxxxxxxxxxxxx--Media size modifications-xxxxxxxxxxxxxxxx*/
-/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
-
-@media screen and (max-width: 600px) {
-  ul.topnav li a {
-    padding: 5px;
-  }
-  ul.topnav li.right,
-  ul.topnav li {
-    float: none;
-  }
-  img.etgd {
-    /*position: absolute;*/
-    top: 0;
-    left: 0;
-    border: none;
-    width: 50px;
-    height: 50px;
-  }
-  h1 {
-    font-size: 4vw;
-  }
-  h2 {
-    font-size: 3.5vw;
-  }
-  h3 {
-    font-size: 3vw;
-  }
-  p {
-    font-size: 2.5vw;
-  }
-  label {
-    font-size: 2.5vw;
-  }
-  a {
-    font-size: 2.5vw;
-  }
-  body {
-    background-size: contain;
-    background-position: center bottom;
-  }
-  .container_bass {
-    width: 100%;
-  }
-  .container_bass p {
-    font-size: 2.5vw;
-  }
-  .container_chili_head p {
-    text-align: left;
-    font-size: 3vw;
-  }
-  .container_chili_rules {
-    grid-template-columns: 50% 50%;
-    text-align: left;
-    font-size: 2.5vw;
-  }
-  .container_chili_rules_left {
-    text-align: left;
-    font-size: 2.5vw;
-  }
-  .container_chili_rules_right {
-    text-align: left;
-    font-size: 2.5vw;
-  }
-  .container_dnj {
-    font-size: 2.5vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .container_streetdance {
-    font-size: 3vw;
-  }
-  .container_streetdance a {
-    font-size: 3.5vw;
-  }
-  .body_board {
-    background-position: 10% 80%, 90% 80%;
-  }
-  .board-list {
-    font-size: 3vw;
-  }
 }

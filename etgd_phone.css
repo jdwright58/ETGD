@@ -1,0 +1,190 @@
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+/*xxxxxxxxxxxxxxxx--Media size modifications-xxxxxxxxxxxxxxxx*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+@media screen and (max-width: 600px) {
+  html,
+  body {
+    height: auto;
+  }
+  ul.topnav li a {
+    padding: 5px;
+  }
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+  img.etgd {
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    border: none;
+    width: 50px;
+    height: 50px;
+  }
+  h1 {
+    font-size: 4vw;
+  }
+  h2 {
+    font-size: 3.5vw;
+  }
+  h3 {
+    font-size: 3vw;
+  }
+  p {
+    font-size: 2.5vw;
+  }
+  label {
+    font-size: 2.5vw;
+  }
+  a {
+    font-size: 2.5vw;
+  }
+  body {
+    background-size: contain;
+    background-position: center bottom;
+  }
+
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+  /*----------Arts and Crafts classes----------*/
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+  .body_ac {
+      /*Set padding to display background picture below the vendor list*/
+      padding-bottom: 200px;
+  }
+
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+  /*----------Bass classes----------*/
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+  .body_bass {
+    background-position: bottom;
+      /*Set padding to display background picture below the winners list*/
+      padding-bottom: 300px;
+  }
+  .container_bass_announcement {
+    width: 100%;
+  }
+  .container_bass_announcement a {
+    font-size: 3.5vw;
+  }
+  .container_bass_announcement p {
+    font-size: 3.5vw;
+  }
+  .container_bass_winners {
+    width: 100%;
+  }
+  .container_bass_winners p {
+    font-size: 3.5vw;
+  }
+
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+  /*----------Board classes----------*/
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+  .body_board {
+    background-position: 10% 80%, 90% 80%;
+  }
+  .board-list {
+    font-size: 3vw;
+  }
+
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+  /*----------Car Show classes----------*/
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+  .body_carshow {
+    background-position: bottom;
+  }
+  .container_carshow {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+  /*----------Chili classes----------*/
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+  .body_chili {
+    background-position: bottom;
+  }
+  .container_chili_head p {
+    font-size: 3vw;
+  }
+  .container_chili_rules {
+    grid-template-columns: 50% 50%;
+    text-align: left;
+    font-size: 2.5vw;
+  }
+  .container_chili_rules_left {
+    text-align: left;
+    font-size: 2.5vw;
+  }
+  .container_chili_rules_right {
+    text-align: left;
+    font-size: 2.5vw;
+  }
+
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+  /*----------Dirty Neck Jessie's classes----------*/
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+  .container_dnj {
+    font-size: 2.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+  /*----------FaceBook classes----------*/
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+  
+  .body_fb {
+    background-image: none;
+  }
+
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+  /*----------Food classes----------*/
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+  
+  .container_food {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+  /*----------Index classes----------*/
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+  .body_index {
+    height: auto;
+    background-position: bottom;
+  }
+  .container_index_announcement {
+    max-width: max-content;
+    margin: auto;
+    font-size: 1.5rem;
+  }
+  .container_index_countdown {
+  }
+
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+  /*----------Street Dance classes----------*/
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxX*/
+
+  .body_streetdance {
+    background-position: bottom;
+  }
+  .container_streetdance {
+    font-size: 3vw;
+    margin-bottom: 15px;
+  }
+  .container_streetdance a {
+    font-size: 3.5vw;
+  }
+}

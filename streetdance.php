@@ -9,12 +9,16 @@
   <link rel="icon" href="/photos/ETGD_BW.jpg">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/etgd.css">
+  <link rel="stylesheet" href="/css/etgd_phone.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body class="body_streetdance">
   <?php include "_header.php"; ?>
   <?php include "_nav.php"; ?>
+  <script>
+    document.getElementById("menuitem_sd").className = "active";
+  </script>
   <div class="container_streetdance">
     <h1>Gusher Days Street Dance Friday and Saturday Evening!</h1>
     <!--<a href="https://www.facebook.com/VentureSouthBand?fref=mentions" target="_blank">Venture South</a> - Friday, April 19th @ 7 PM to 10 PM<br>-->

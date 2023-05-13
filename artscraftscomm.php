@@ -8,12 +8,16 @@
   <meta name="author" content="Jeff Wright">  <link rel="icon" href="/photos/ETGD_BW.jpg">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/etgd.css">
+  <link rel="stylesheet" href="/css/etgd_phone.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body class="body_ac">
   <?php include "_header.php"; ?>
   <?php include "_nav.php"; ?>
+  <script>
+    document.getElementById("menuitem_ac").className = "active";
+  </script>
   <div class="container_ac">
     <h1>Gusher Days Arts & Crafts, Commercial Booths</h1>
     <!--<p style="font-size: larger;">-->
@@ -22,7 +26,7 @@
       Click
       <a href="/applications/AandC-Com Application.pdf" target="_blank">
         here</a> for the 2024 vendor application. <br>
-        It contains booth prices, setup times and festival hours.</h3>
+      It contains booth prices, setup times and festival hours.</h3>
     <h3>2023 Vendors are listed below.</h3>
     <h3>A 2023 vendor map link is in the menu above.</h3>
     <ol>
@@ -56,7 +60,7 @@
       <!---->
       <li><h2>Blue Sky Designs - Connie Sens</h2></li>
       <h3 class="acline2">Tumblers, door hangers, shirts, teacher items, <br>
-      novelty items, resin art</h3>
+        novelty items, resin art</h3>
       <!---->
       <li><h2>Boss Babe Designs - Alysia Butler</h2></li>
       <h3 class="acline2">T-shirts on-site</h3>
@@ -78,11 +82,11 @@
       <!---->
       <li><h2>Chickwood Lovrly Hearts - Randy & Ellen Houser</h2></li>
       <h3 class="acline2">Bath soap, scrubs, lotions, bubble bath bombs, crochet body & <br>
-      bath scrubbies, 3D made bathroom accessories</h3>
+        bath scrubbies, 3D made bathroom accessories</h3>
       <!---->
       <li><h2>Collectors Knives & Gifts - Charles Deems</h2></li>
       <h3 class="acline2">Knives, Damascus, fixed blade, swords, health bracelets & <br>
-      essential oil necklace</h3>
+        essential oil necklace</h3>
       <!---->
       <li><h2>Colonel Dave's BBQ Rub for your Grub - David Bowen</h2></li>
       <h3 class="acline2">Dry mix BBQ rub and seasoning mixes</h3>
@@ -107,7 +111,7 @@
       <!---->
       <li><h2>Easley Haus Apothecary & Oddities - Haleyann Easley</h2></li>
       <h3 class="acline2">Natural soap, beeswax candles and wax melts, <br>
-      loose leaf tea, handmade wire wrap bracelets</h3>
+        loose leaf tea, handmade wire wrap bracelets</h3>
       <!---->
       <li><h2>East Texas Custom Treasures - Kimberly Kee</h2></li>
       <h3 class="acline2">Sublimation tumblers, wallets, key chains, earrings, home decor</h3>
@@ -228,7 +232,7 @@
       <!---->
       <li><h2>Pearly's Gift Shop - Pearly Kupiec</h2></li>
       <h3 class="acline2">Crosses, tin signs,dream catchers, hats, wallets, knives,<br>
-      tasers, small toys, key chains, airsoft guns</h3>
+        tasers, small toys, key chains, airsoft guns</h3>
       <!---->
       <li><h2>Pink Zebra - Anita Penney</h2></li>
       <h3 class="acline2">Sprinkles, soft soy wax melts</h3>
@@ -268,7 +272,7 @@
       <!---->
       <li><h2>Shirts & Skins - Candis Mendoza</h2></li>
       <h3 class="acline2">T-shirts, build-a-bear</h3>
-       <!---->
+      <!---->
       <li><h2>Short and Sweet by B - Brionna Kegley</h2></li>
       <h3 class="acline2">Tumblers, keychains, koozies, freshies, and resin accessories</h3>     <!---->
       <li><h2>Smokin Tees Kustom Designs - Autumn Eddy</h2></li>
@@ -279,7 +283,7 @@
       <!---->
       <li><h2>Syreeta's Precious Gems - Syreeta Johnson</h2></li>
       <h3 class="acline2">Handmade wire jewelry, gemstone jewelry, <br>
-      wire sculptures and gifts</h3>
+        wire sculptures and gifts</h3>
       <!---->
       <li><h2>Tea & Tin Custom Designs - Tayna Moore</h2></li>
       <h3 class="acline2">Custom laser engravings, woodwork, leather and jewelry</h3>
@@ -313,19 +317,10 @@
       <!---->
       <li><h2>W&#252;d Craft - Darren and Delicia Carnes</h2></li>
       <h3 class="acline2">Handmade jewelry, seasonal ornaments, pens, bracelet assistants,<br>
-      fire starters, seam rippers, home decor</h3>
+        fire starters, seam rippers, home decor</h3>
       <!---->
     </ol>
-    <!--</div>-->
-    <!--<div class="container_ac">-->
-    <!--<h1>Arts and Crafts vendors coming to Gusher Days</h1>-->
-    <!--<iframe width=100% height=80% frameborder=0 src="https://docs.google.com/document/d/e/2PACX-1vTS_SadCzYuekyJ-Elx2UpeGV3N8pWDHflo1K0Gz06ZXYxW1awmDooLKaa57o7TWcMynnxA6KSncLy_/pub?embedded=true"></iframe>-->
-    <!--<iframe width=100% frameborder 0 src="Gusher Days Arts and Crafts Vendors.pdf"></iframe>-->
-    <!--</div>-->
-    <!--  <div class="container_ac" style="height 100%">-->
-    <!--  <h1>Arts and Crafts vendors coming to Gusher Days</h1>-->
-    <!--<iframe width=100% height 100% frameborder 0 src="https://drive.google.com/file/d/11BEl-OTTN3xYhmVG1ScgihakkqYHnsZW/view?usp=sharing"></iframe>-->
   </div>
-<?php include "_footer.php"; ?>
+  <?php include "_footer.php"; ?>
 </body>
 </html>

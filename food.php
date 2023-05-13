@@ -9,12 +9,16 @@
   <link rel="icon" href="/photos/ETGD_BW.jpg">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/etgd.css">
+  <link rel="stylesheet" href="/css/etgd_phone.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body class="body_food">
   <?php include "_header.php"; ?>
   <?php include "_nav.php"; ?>
+  <script>
+    document.getElementById("menuitem_fd").className = "active";
+  </script>
   <div class="container_food">
     <h1>Gusher Days Food</h1>
     <p>

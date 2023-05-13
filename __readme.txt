@@ -1,5 +1,25 @@
 https://github.com/jdwright58/ETGD
 ==================================
+20230512
+1. etgd_phone.css
+  a. html,body height: auto instead of 100% vh
+  b. set Body background-position to bottom
+  c. addjusted padding to show pictures on the bottom of the pages after scrolling
+==================================
+20230511
+1. etgd.css
+  a. Grouped page classes together
+2. carshow.php, etgd.css
+  a. Added background-position to bring down the top of the photo
+  b. Removed margin-right to shift text box to the right side of the page
+3. _nav.php, all pages
+  a. Added ids to menu items
+  b. Added script to assign class=active to turn current item background green
+4. etgd_phone.css, etgd.css
+  a. Created separate css for media
+  b. Added new etgd_phone.css to all pages <head> sections
+  c. Removed media section from etgd.css
+==================================
 20230510
 1. food.php, etged.css
   a. Uploaded new image and updated background-size: contain
